@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Sudoku Zen Journey</title>
+  <style>
+    :root {
+      --bg: #f7f6f2;
+      --card: #ffffff;
+      --text: #1f2421;
+      --muted: #5c6660;
+      --accent: #2c6e49;
+      --border: #e2e0d8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111518;
+        --card: #1a2025;
+        --text: #eceee9;
+        --muted: #9ba6a0;
+        --accent: #52b788;
+        --border: #2b333a;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans TC", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 20px 14px 48px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    .lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .lang-btn {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .lang-btn:hover { border-color: var(--accent); }
+    .lang-btn.active {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+    h1 { font-size: 1.65rem; margin-bottom: 6px; line-height: 1.3; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 22px; }
+    h2 { font-size: 1.15rem; margin: 22px 0 8px; color: var(--accent); }
+    p { margin-bottom: 12px; }
+    ul { margin: 8px 0 14px 20px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="lang-bar" aria-label="Language selector">
+      <button class="lang-btn" data-lang="es" onclick="setLang('es')">Español</button>
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">English</button>
+      <button class="lang-btn" data-lang="pt" onclick="setLang('pt')">Português</button>
+      <button class="lang-btn" data-lang="ja" onclick="setLang('ja')">日本語</button>
+      <button class="lang-btn" data-lang="ko" onclick="setLang('ko')">한국어</button>
+      <button class="lang-btn" data-lang="zh-TW" onclick="setLang('zh-TW')">繁體中文</button>
+    </nav>
+
+    <!-- ESPAÑOL -->
+    <section id="lang-es" class="lang-section">
+      <h1>Política de Privacidad de Sudoku Zen Journey</h1>
+      <p class="updated">Última actualización: Noviembre 2026</p>
+
+      <h2>1. Información que recopilamos</h2>
+      <p><strong>Sudoku Zen Journey</strong>, desarrollado por <strong>Arlan</strong>, no recopila información personal identificable (como nombre real, dirección física o número de teléfono). Utilizamos identificadores anónimos generados automáticamente por Firebase para guardar el progreso de tus partidas y logros en la nube de forma segura.</p>
+
+      <h2>2. Servicios de Terceros y Publicidad</h2>
+      <p>Utilizamos servicios oficiales de Google que pueden recopilar información técnica anónima (como el ID de publicidad de Android, dirección IP aproximada y registros de diagnóstico):</p>
+      <ul>
+        <li><strong>Google Play Services:</strong> Funcionamiento básico en Android.</li>
+        <li><strong>Google AdMob:</strong> Muestra de anuncios recompensados opcionales. Para usuarios en el Espacio Económico Europeo (EEE), Reino Unido y Suiza, gestionamos las preferencias de consentimiento mediante la plataforma UMP de Google (GDPR).</li>
+        <li><strong>Firebase Analytics y Crashlytics:</strong> Monitoreo de errores y métricas anónimas de uso.</li>
+        <li><strong>Firebase Firestore:</strong> Almacenamiento del progreso de partidas y desafíos diarios.</li>
+      </ul>
+
+      <h2>3. Retención de Datos</h2>
+      <p>Los datos de guardado se mantienen vinculados a un identificador anónimo en Firebase. Si desinstalas la app y borras los datos del dispositivo, perderás dicho identificador y no se podrá recuperar el progreso anterior.</p>
+
+      <h2>4. Privacidad de Menores</h2>
+      <p>Esta aplicación está dirigida a una audiencia general (mayores de 13 años) y no recopila conscientemente datos personales de menores de edad.</p>
+
+      <h2>5. Contacto</h2>
+      <p>Dudas, consultas sobre privacidad o sugerencias: <a href="mailto:leandroaquino27@outlook.com">leandroaquino27@outlook.com</a></p>
+    </section>
+
+    <!-- ENGLISH -->
+    <section id="lang-en" class="lang-section">
+      <h1>Privacy Policy — Sudoku Zen Journey</h1>
+      <p class="updated">Last updated: November 2026</p>
+
+      <h2>1. Information We Collect</h2>
+      <p><strong>Sudoku Zen Journey</strong>, developed by <strong>Arlan</strong>, does not collect personally identifiable information (such as your real name, physical address, or phone number). We use anonymous identifiers automatically generated by Firebase to securely save your game progress and achievements in the cloud.</p>
+
+      <h2>2. Third-Party Services & Advertising</h2>
+      <p>We use official Google services that may collect anonymous technical data (such as Android Advertising ID, approximate IP address, and crash diagnostics):</p>
+      <ul>
+        <li><strong>Google Play Services:</strong> Core functionality on Android devices.</li>
+        <li><strong>Google AdMob:</strong> Delivery of optional rewarded ads. For users in the European Economic Area (EEA), the UK, and Switzerland, consent preferences are managed via Google's User Messaging Platform (UMP / GDPR).</li>
+        <li><strong>Firebase Analytics & Crashlytics:</strong> Crash monitoring and anonymous usage metrics.</li>
+        <li><strong>Firebase Firestore:</strong> Cloud storage for game progress and daily challenges.</li>
+      </ul>
+
+      <h2>3. Data Retention</h2>
+      <p>Save data is stored under an anonymous identifier in Firebase. If you uninstall the app and clear local device data, that identifier is lost and previous progress cannot be restored.</p>
+
+      <h2>4. Children's Privacy</h2>
+      <p>This app is intended for a general audience (ages 13 and older) and does not knowingly collect personal data from children.</p>
+
+      <h2>5. Contact</h2>
+      <p>Questions, privacy inquiries, or feedback: <a href="mailto:leandroaquino27@outlook.com">leandroaquino27@outlook.com</a></p>
+    </section>
+
+    <!-- PORTUGUÊS -->
+    <section id="lang-pt" class="lang-section">
+      <h1>Política de Privacidade do Sudoku Zen Journey</h1>
+      <p class="updated">Última atualização: Novembro de 2026</p>
+
+      <h2>1. Informações que coletamos</h2>
+      <p>O <strong>Sudoku Zen Journey</strong>, desenvolvido por <strong>Arlan</strong>, não coleta informações pessoais identificáveis (como nome real, endereço ou número de telefone). Utilizamos identificadores anônimos gerados automaticamente pelo Firebase para salvar o progresso das suas partidas e conquistas na nuvem com segurança.</p>
+
+      <h2>2. Serviços de Terceiros e Publicidade</h2>
+      <p>Utilizamos serviços oficiais do Google que podem coletar informações técnicas anônimas (como o ID de publicidade do Android, endereço IP aproximado e registros de falhas):</p>
+      <ul>
+        <li><strong>Google Play Services:</strong> Funcionamento básico no Android.</li>
+        <li><strong>Google AdMob:</strong> Exibição de anúncios premiados opcionais. Para usuários no Espaço Econômico Europeu (EEE), Reino Unido e Suíça, o consentimento é gerenciado pela plataforma UMP do Google (GDPR).</li>
+        <li><strong>Firebase Analytics e Crashlytics:</strong> Monitoramento de erros e métricas anônimas de uso.</li>
+        <li><strong>Firebase Firestore:</strong> Armazenamento de partidas e desafios diários.</li>
+      </ul>
+
+      <h2>3. Retenção de Dados</h2>
+      <p>Os dados salvos são mantidos no Firebase vinculados a um identificador anônimo. Se você desinstalar o aplicativo e apagar os dados do dispositivo, perderá esse identificador e não será possível recuperar o progresso anterior.</p>
+
+      <h2>4. Privacidade de Menores</h2>
+      <p>Este aplicativo destina-se ao público em geral (maiores de 13 anos) e não coleta intencionalmente dados pessoais de crianças.</p>
+
+      <h2>5. Contato</h2>
+      <p>Dúvidas, solicitações de privacidade ou sugestões: <a href="mailto:leandroaquino27@outlook.com">leandroaquino27@outlook.com</a></p>
+    </section>
+
+    <!-- 日本語 -->
+    <section id="lang-ja" class="lang-section">
+      <h1>Sudoku Zen Journey プライバシーポリシー</h1>
+      <p class="updated">最終更新日：2026年11月</p>
+
+      <h2>1. 収集する情報</h2>
+      <p><strong>Arlan</strong> が開発した <strong>Sudoku Zen Journey</strong> は、個人を特定できる情報（氏名、住所、電話番号など）を収集しません。ゲームの進行状況や実績をクラウドに安全に保存するため、Firebase によって自動生成される匿名識別子のみを使用します。</p>
+
+      <h2>2. 第三者サービスおよび広告について</h2>
+      <p>本アプリでは、匿名の技術情報（Android 広告 ID、おおよその IP アドレス、クラッシュ診断データなど）を収集する可能性のある Google 公式サービスを利用しています：</p>
+      <ul>
+        <li><strong>Google Play Services：</strong> Android 端末での基本動作のため。</li>
+        <li><strong>Google AdMob：</strong> 任意視聴型リワード広告の配信のため。欧州経済領域（EEA）、英国、スイスのユーザーに対しては、Google の UMP（GDPR）を通じて同意設定を管理します。</li>
+        <li><strong>Firebase Analytics および Crashlytics：</strong> エラー監視および匿名の利用状況分析のため。</li>
+        <li><strong>Firebase Firestore：</strong> ゲームの進行状況およびデイリーチャレンジの保存のため。</li>
+      </ul>
+
+      <h2>3. データの保持</h2>
+      <p>セーブデータは匿名識別子に紐づけて Firebase に保存されます。アプリをアンインストールし、端末内のデータを削除すると識別子が失われ、以前の進行状況は復元できなくなります。</p>
+
+      <h2>4. お子様のプライバシー</h2>
+      <p>本アプリは一般向け（13歳以上対象）であり、お子様から故意に個人情報を収集することはありません。</p>
+
+      <h2>5. お問い合わせ</h2>
+      <p>プライバシーに関するご質問やご要望：<a href="mailto:leandroaquino27@outlook.com">leandroaquino27@outlook.com</a></p>
+    </section>
+
+    <!-- 한국어 -->
+    <section id="lang-ko" class="lang-section">
+      <h1>Sudoku Zen Journey 개인정보 처리방침</h1>
+      <p class="updated">최종 업데이트: 2026년 11월</p>
+
+      <h2>1. 수집하는 정보</h2>
+      <p><strong>Arlan</strong>이 개발한 <strong>Sudoku Zen Journey</strong>는 실명, 주소, 전화번호 등 개인을 식별할 수 있는 정보를 수집하지 않습니다. 게임 진행 상황과 업적을 클라우드에 안전하게 저장하기 위해 Firebase에서 자동 생성된 익명 식별자만을 사용합니다.</p>
+
+      <h2>2. 제3자 서비스 및 광고</h2>
+      <p>본 앱은 익명의 기술 정보(Android 광고 ID, 대략적인 IP 주소, 오류 진단 데이터 등)를 수집할 수 있는 Google 공식 서비스를 사용합니다:</p>
+      <ul>
+        <li><strong>Google Play Services:</strong> Android 기기의 기본 작동을 위해 사용됩니다.</li>
+        <li><strong>Google AdMob:</strong> 선택형 보상형 광고 제공을 위해 사용됩니다. 유럽 경제 지역(EEA), 영국 및 스위스 사용자의 경우 Google UMP(GDPR)를 통해 동의 설정을 관리합니다.</li>
+        <li><strong>Firebase Analytics 및 Crashlytics:</strong> 오류 모니터링 및 익명 사용 통계를 위해 사용됩니다.</li>
+        <li><strong>Firebase Firestore:</strong> 게임 진행 데이터 및 일일 도전 과제 저장을 위해 사용됩니다.</li>
+      </ul>
+
+      <h2>3. 데이터 보관</h2>
+      <p>저장 데이터는 익명 식별자와 연결되어 Firebase에 보관됩니다. 앱을 삭제하고 기기 데이터를 지우면 해당 식별자가 소실되어 이전 진행 상황을 복구할 수 없습니다.</p>
+
+      <h2>4. 아동의 개인정보 보호</h2>
+      <p>본 앱은 일반 사용자(만 13세 이상)를 대상으로 하며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+      <h2>5. 문의하기</h2>
+      <p>개인정보 관련 문의 및 제안: <a href="mailto:leandroaquino27@outlook.com">leandroaquino27@outlook.com</a></p>
+    </section>
+
+    <!-- 繁體中文 -->
+    <section id="lang-zh-TW" class="lang-section">
+      <h1>Sudoku Zen Journey 隱私權政策</h1>
+      <p class="updated">最後更新日期：2026年11月</p>
+
+      <h2>1. 我們收集的資訊</h2>
+      <p>由 <strong>Arlan</strong> 開發的 <strong>Sudoku Zen Journey</strong> 不會收集任何可識別個人身分的資訊（例如真實姓名、地址或電話號碼）。我們僅使用由 Firebase 自動產生的匿名識別碼，以安全地在雲端儲存您的遊戲進度與成就。</p>
+
+      <h2>2. 第三方服務與廣告</h2>
+      <p>我們使用可能會收集匿名技術資訊（例如 Android 廣告 ID、大略 IP 位址與當機診斷紀錄）的 Google 官方服務：</p>
+      <ul>
+        <li><strong>Google Play Services：</strong> 提供 Android 裝置的基本運作功能。</li>
+        <li><strong>Google AdMob：</strong> 顯示選擇性的獎勵式廣告。針對歐洲經濟區（EEA）、英國與瑞士的使用者，我們透過 Google UMP 平台（GDPR）管理同意偏好設定。</li>
+        <li><strong>Firebase Analytics 與 Crashlytics：</strong> 用於錯誤監控與匿名使用數據分析。</li>
+        <li><strong>Firebase Firestore：</strong> 用於儲存遊戲進度與每日挑戰資料。</li>
+      </ul>
+
+      <h2>3. 資料保留</h2>
+      <p>存檔資料會與匿名識別碼綁定並儲存在 Firebase 中。若您解除安裝應用程式並清除裝置資料，該識別碼將會遺失，先前的遊戲進度將無法復原。</p>
+
+      <h2>4. 兒童隱私權</h2>
+      <p>本應用程式適用於一般大眾（13 歲以上），不會刻意收集兒童的個人資料。</p>
+
+      <h2>5. 聯絡我們</h2>
+      <p>如有任何疑問、隱私權諮詢或建議，請聯絡：<a href="mailto:leandroaquino27@outlook.com">leandroaquino27@outlook.com</a></p>
+    </section>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      const target = document.getElementById('lang-' + lang) || document.getElementById('lang-en');
+      const activeBtn = document.querySelector('.lang-btn[data-lang="' + lang + '"]') || document.querySelector('.lang-btn[data-lang="en"]');
+      target.classList.add('active');
+      activeBtn.classList.add('active');
+      document.documentElement.lang = lang;
+    }
+
+    (function detectLanguage() {
+      const navLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      if (navLang.startsWith('es')) setLang('es');
+      else if (navLang.startsWith('pt')) setLang('pt');
+      else if (navLang.startsWith('ja')) setLang('ja');
+      else if (navLang.startsWith('ko')) setLang('ko');
+      else if (navLang.startsWith('zh')) setLang('zh-TW');
+      else setLang('en');
+    })();
+  </script>
+</body>
+</html>
